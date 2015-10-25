@@ -2,8 +2,7 @@
 #Global Best Particle Optimization
 #Problem: Take an integer as input from a user between -300 to 300 (inclusive). Find a combination of 3 numbers that, 
 #when added, yields the user's number. These 3 numbers must also be in the range -300 to 300 (inclusive)
-#inertia weight = 0.5, r1 & r2 = random numbers between 0 and 1 (exclusive) from a uniform distribution, c1 = c2 = 0.49
-#THIS ONE ALSO MAKES USE OF THE CONSTRICTION FACTOR k
+#Uses modified velocity update equation to use Constriction Factor - Significance improvement from gbest_pso.py
 #########################################################################################################################
 import math, random;
 
